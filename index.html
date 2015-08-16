@@ -1,0 +1,1027 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Flight Info</title>
+        <meta name="description" content="Shri Task 1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/mainFlex.css">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,100&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="container">
+            <input type="checkbox" id="arrival" checked>
+            <label for="arrival" class="collapse collapse-arrival">Arrival</label>
+
+            <input type="checkbox" id="departure" checked>
+            <label for="departure" class="collapse collapse-departure">Departure</label>
+            <div class="schedule schedule-header-wrap">
+                <div class="schedule-header">
+                    <div class="schedule-col schedule-time">Sheduled Time</div>
+                    <div class="schedule-col schedule-plane-icon"></div>
+                    <div class="schedule-col schedule-number">Flight Number</div>
+                    <div class="schedule-col schedule-company">Airline</div>
+                    <div class="schedule-col schedule-company-icon"></div>
+                    <div class="schedule-col schedule-airport">
+                        <span class="schedule-airport-full">Destination City</span>
+                        <span class="schedule-airport-short">Airport</span>
+                    </div>
+                    <div class="schedule-col schedule-plane">Aircraft type</div>
+                    <div class="schedule-col schedule-status">Status</div>
+                </div>
+            </div>
+            <div class="schedule schedule-content">
+                
+                <departurerow class="schedule-row schedule-departure">
+                    <div class="schedule-full">
+                        <div class="schedule-inner-wrap">
+                            <div class="schedule-full-header">
+                                <img src="img/aircompany/NN.svg" class="schedule-company-img">
+                                <span class="schedule-full-header-title">Scheduled flight info</span>
+                            </div>
+                            <div class="schedule-full-content">
+                                <div class="schedule-col schedule-full-title">Departure</div>
+                                <div class="schedule-col schedule-full-desc">Moscow (Moscow Domodedovo Airport)</div>
+                                <div class="schedule-col schedule-full-title">Destination</div>
+                                <div class="schedule-col schedule-full-desc">Simferopol (Simferopol International Airport) ,  24.07 at 03:20</div>
+                                <div class="schedule-col schedule-full-title">Status</div>
+                                <div class="schedule-col schedule-full-desc">Departed 01:00</div>
+                                <div class="schedule-col schedule-full-title">Time of arrival at destination</div>
+                                <div class="schedule-col schedule-full-desc">03:20</div>
+                                <div class="schedule-col schedule-full-title">Flight Number</div>
+                                <div class="schedule-col schedule-full-desc">NN 335</div>
+                                <div class="schedule-col schedule-full-title">Airline</div>
+                                <div class="schedule-col schedule-full-desc">VIM Airlines</div>
+                                <div class="schedule-col schedule-full-title">Aircraft type</div>
+                                <div class="schedule-col schedule-full-desc">Boeing 757 Passenger</div>
+                                <div class="schedule-col schedule-full-title">Check-in Start</div>
+                                <div class="schedule-col schedule-full-desc">23.07 13:00</div>
+                                <div class="schedule-col schedule-full-title">Check-in End</div>
+                                <div class="schedule-col schedule-full-desc">24.07 00:30</div>
+                                <div class="schedule-col schedule-full-title">Boarding Start</div>
+                                <div class="schedule-col schedule-full-desc">00:20</div>
+                                <div class="schedule-col schedule-full-title">Boarding End</div>
+                                <div class="schedule-col schedule-full-desc">00:50</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-short">
+                        <div class="schedule-col schedule-time">01:00</div>
+                        <div class="schedule-col schedule-plane-icon">
+                            <img src="img/departure.svg" class="schedule-plane-img">
+                        </div>
+                        <div class="schedule-col schedule-number">NN 335</div>
+                        <div class="schedule-col schedule-company">
+                            VIM Airlines
+                        </div>
+                        <div class="schedule-col schedule-company-icon">
+                            <img src="img/aircompany/NN.svg" class="schedule-company-img">
+                        </div>
+                        <div class="schedule-col schedule-airport">Simferopol<span class="schedule-airport-full"> (Simferopol International Airport)</span></div>
+                        <div class="schedule-col schedule-plane">
+                            <span class="schedule-plane-full">Boeing 757 Passenger</span>
+                            <span class="schedule-plane-short">B 757</span>
+                        </div>
+                        <div class="schedule-col schedule-status">
+                        <span class="schedule-status-flight">
+                            Departed at 01:00
+                            <span class="schedule-status-full">Departed 01:00</span>
+                        </div>
+                    </div>
+                </departurerow>
+                
+                <arrivalrow class="schedule-row schedule-arrival">
+                    <div class="schedule-full">
+                        <div class="schedule-inner-wrap">
+                            <div class="schedule-full-header">
+                                <img src="img/aircompany/AB.svg" class="schedule-company-img">
+                                <span class="schedule-full-header-title">Scheduled flight info</span>
+                            </div>
+                            <div class="schedule-full-content">
+                                <div class="schedule-col schedule-full-title">Departure</div>
+                                <div class="schedule-col schedule-full-desc">Berlin (Tegel Airport)</div>
+                                <div class="schedule-col schedule-full-title">Destination</div>
+                                <div class="schedule-col schedule-full-desc">Moscow (Moscow Domodedovo Airport) ,  24.07 at 01:05</div>
+                                <div class="schedule-col schedule-full-title">Status</div>
+                                <div class="schedule-col schedule-full-desc">Landed at 01:05. Baggage delivery closed 05</div>
+                                <div class="schedule-col schedule-full-title">Time of arrival at destination</div>
+                                <div class="schedule-col schedule-full-desc">01:05</div>
+                                <div class="schedule-col schedule-full-title">Flight Number</div>
+                                <div class="schedule-col schedule-full-desc">AB 8100</div>
+                                <div class="schedule-col schedule-full-title">Airline</div>
+                                <div class="schedule-col schedule-full-desc">Air Berlin</div>
+                                <div class="schedule-col schedule-full-title">Aircraft type</div>
+                                <div class="schedule-col schedule-full-desc">Boeing 737 Passenger</div>
+                                <div class="schedule-col schedule-full-title">Check-in Start</div>
+                                <div class="schedule-col schedule-full-desc">23.07 09:30</div>
+                                <div class="schedule-col schedule-full-title">Check-in End</div>
+                                <div class="schedule-col schedule-full-desc">23.07 21:00</div>
+                                <div class="schedule-col schedule-full-title">Boarding Start</div>
+                                <div class="schedule-col schedule-full-desc">20:50</div>
+                                <div class="schedule-col schedule-full-title">Boarding End</div>
+                                <div class="schedule-col schedule-full-desc">21:20</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-short">
+                        <div class="schedule-col schedule-time">01:05</div>
+                        <div class="schedule-col schedule-plane-icon">
+                            <img src="img/arrival.svg" class="schedule-plane-img">
+                        </div>
+                        <div class="schedule-col schedule-number">AB 8100</div>
+                        <div class="schedule-col schedule-company">
+                            Air Berlin
+                        </div>
+                        <div class="schedule-col schedule-company-icon">
+                            <img src="img/aircompany/AB.svg" class="schedule-company-img">
+                        </div>
+                        <div class="schedule-col schedule-airport">Berlin<span class="schedule-airport-full"> (Tegel Airport)</span></div>
+                        <div class="schedule-col schedule-plane">
+                            <span class="schedule-plane-full">Boeing 737 Passenger</span>
+                            <span class="schedule-plane-short">B 737</span>
+                        </div>
+                        <div class="schedule-col schedule-status">
+                        <span class="schedule-status-flight">
+                            Landed at 01:05
+                            <span class="schedule-status-full">Landed at 01:05. Baggage delivery closed 05</span>
+                        </div>
+                    </div>
+                </arrivalrow>
+                
+                <arrivalrow class="schedule-row schedule-arrival">
+                    <div class="schedule-full">
+                        <div class="schedule-inner-wrap">
+                            <div class="schedule-full-header">
+                                <img src="img/aircompany/S7.svg" class="schedule-company-img">
+                                <span class="schedule-full-header-title">Scheduled flight info</span>
+                            </div>
+                            <div class="schedule-full-content">
+                                <div class="schedule-col schedule-full-title">Departure</div>
+                                <div class="schedule-col schedule-full-desc">Berlin (Tegel Airport)</div>
+                                <div class="schedule-col schedule-full-title">Destination</div>
+                                <div class="schedule-col schedule-full-desc">Moscow (Moscow Domodedovo Airport) ,  24.07 at 01:05</div>
+                                <div class="schedule-col schedule-full-title">Status</div>
+                                <div class="schedule-col schedule-full-desc">Landed at 01:05. Baggage delivery closed 05</div>
+                                <div class="schedule-col schedule-full-title">Time of arrival at destination</div>
+                                <div class="schedule-col schedule-full-desc">01:05</div>
+                                <div class="schedule-col schedule-full-title">Flight Number</div>
+                                <div class="schedule-col schedule-full-desc">S7 4030</div>
+                                <div class="schedule-col schedule-full-title">Airline</div>
+                                <div class="schedule-col schedule-full-desc">S7 Airlines</div>
+                                <div class="schedule-col schedule-full-title">Aircraft type</div>
+                                <div class="schedule-col schedule-full-desc">Boeing 737 Passenger</div>
+                                <div class="schedule-col schedule-full-title">Check-in Start</div>
+                                <div class="schedule-col schedule-full-desc">23.07 09:30</div>
+                                <div class="schedule-col schedule-full-title">Check-in End</div>
+                                <div class="schedule-col schedule-full-desc">23.07 21:00</div>
+                                <div class="schedule-col schedule-full-title">Boarding Start</div>
+                                <div class="schedule-col schedule-full-desc">20:50</div>
+                                <div class="schedule-col schedule-full-title">Boarding End</div>
+                                <div class="schedule-col schedule-full-desc">21:20</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-short">
+                        <div class="schedule-col schedule-time">01:05</div>
+                        <div class="schedule-col schedule-plane-icon">
+                            <img src="img/arrival.svg" class="schedule-plane-img">
+                        </div>
+                        <div class="schedule-col schedule-number">S7 4030</div>
+                        <div class="schedule-col schedule-company">
+                            S7 Airlines
+                        </div>
+                        <div class="schedule-col schedule-company-icon">
+                            <img src="img/aircompany/S7.svg" class="schedule-company-img">
+                        </div>
+                        <div class="schedule-col schedule-airport">Berlin<span class="schedule-airport-full"> (Tegel Airport)</span></div>
+                        <div class="schedule-col schedule-plane">
+                            <span class="schedule-plane-full">Boeing 737 Passenger</span>
+                            <span class="schedule-plane-short">B 737</span>
+                        </div>
+                        <div class="schedule-col schedule-status">
+                        <span class="schedule-status-flight">
+                            Landed at 01:05
+                            <span class="schedule-status-full">Landed at 01:05. Baggage delivery closed 05</span>
+                        </div>
+                    </div>
+                </arrivalrow>
+                
+                <departurerow class="schedule-row schedule-departure">
+                    <div class="schedule-full">
+                        <div class="schedule-inner-wrap">
+                            <div class="schedule-full-header">
+                                <img src="img/aircompany/U6.svg" class="schedule-company-img">
+                                <span class="schedule-full-header-title">Scheduled flight info</span>
+                            </div>
+                            <div class="schedule-full-content">
+                                <div class="schedule-col schedule-full-title">Departure</div>
+                                <div class="schedule-col schedule-full-desc">Moscow (Moscow Domodedovo Airport)</div>
+                                <div class="schedule-col schedule-full-title">Destination</div>
+                                <div class="schedule-col schedule-full-desc">Omsk (Omsk Airport) ,  24.07 at 07:20</div>
+                                <div class="schedule-col schedule-full-title">Status</div>
+                                <div class="schedule-col schedule-full-desc">Departed 01:05</div>
+                                <div class="schedule-col schedule-full-title">Time of arrival at destination</div>
+                                <div class="schedule-col schedule-full-desc">07:20</div>
+                                <div class="schedule-col schedule-full-title">Flight Number</div>
+                                <div class="schedule-col schedule-full-desc">U6 387</div>
+                                <div class="schedule-col schedule-full-title">Airline</div>
+                                <div class="schedule-col schedule-full-desc">UTair</div>
+                                <div class="schedule-col schedule-full-title">Aircraft type</div>
+                                <div class="schedule-col schedule-full-desc">Airbus A318 / A319 / A320 / A321</div>
+                                <div class="schedule-col schedule-full-title">Check-in Start</div>
+                                <div class="schedule-col schedule-full-desc">23.07 13:05</div>
+                                <div class="schedule-col schedule-full-title">Check-in End</div>
+                                <div class="schedule-col schedule-full-desc">24.07 00:35</div>
+                                <div class="schedule-col schedule-full-title">Boarding Start</div>
+                                <div class="schedule-col schedule-full-desc">00:25</div>
+                                <div class="schedule-col schedule-full-title">Boarding End</div>
+                                <div class="schedule-col schedule-full-desc">00:55</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-short">
+                        <div class="schedule-col schedule-time">01:05</div>
+                        <div class="schedule-col schedule-plane-icon">
+                            <img src="img/departure.svg" class="schedule-plane-img">
+                        </div>
+                        <div class="schedule-col schedule-number">U6 387</div>
+                        <div class="schedule-col schedule-company">
+                            UTair
+                        </div>
+                        <div class="schedule-col schedule-company-icon">
+                            <img src="img/aircompany/U6.svg" class="schedule-company-img">
+                        </div>
+                        <div class="schedule-col schedule-airport">Omsk<span class="schedule-airport-full"> (Omsk Airport)</span></div>
+                        <div class="schedule-col schedule-plane">
+                            <span class="schedule-plane-full">Airbus A318 / A319 / A320 / A321</span>
+                            <span class="schedule-plane-short">A A318</span>
+                        </div>
+                        <div class="schedule-col schedule-status">
+                        <span class="schedule-status-flight">
+                            Departed at 01:05
+                            <span class="schedule-status-full">Departed 01:05</span>
+                        </div>
+                    </div>
+                </departurerow>
+                
+                <arrivalrow class="schedule-row schedule-arrival">
+                    <div class="schedule-full">
+                        <div class="schedule-inner-wrap">
+                            <div class="schedule-full-header">
+                                <img src="img/aircompany/NN.svg" class="schedule-company-img">
+                                <span class="schedule-full-header-title">Scheduled flight info</span>
+                            </div>
+                            <div class="schedule-full-content">
+                                <div class="schedule-col schedule-full-title">Departure</div>
+                                <div class="schedule-col schedule-full-desc">Makhachkala (Makhachkala Airport)</div>
+                                <div class="schedule-col schedule-full-title">Destination</div>
+                                <div class="schedule-col schedule-full-desc">Moscow (Moscow Domodedovo Airport) ,  24.07 at 01:10</div>
+                                <div class="schedule-col schedule-full-title">Status</div>
+                                <div class="schedule-col schedule-full-desc">Landed at 01:10. Baggage delivery closed 05</div>
+                                <div class="schedule-col schedule-full-title">Time of arrival at destination</div>
+                                <div class="schedule-col schedule-full-desc">01:10</div>
+                                <div class="schedule-col schedule-full-title">Flight Number</div>
+                                <div class="schedule-col schedule-full-desc">NN 164</div>
+                                <div class="schedule-col schedule-full-title">Airline</div>
+                                <div class="schedule-col schedule-full-desc">VIM Airlines</div>
+                                <div class="schedule-col schedule-full-title">Aircraft type</div>
+                                <div class="schedule-col schedule-full-desc">Boeing 757 Passenger</div>
+                                <div class="schedule-col schedule-full-title">Check-in Start</div>
+                                <div class="schedule-col schedule-full-desc">23.07 10:30</div>
+                                <div class="schedule-col schedule-full-title">Check-in End</div>
+                                <div class="schedule-col schedule-full-desc">23.07 22:00</div>
+                                <div class="schedule-col schedule-full-title">Boarding Start</div>
+                                <div class="schedule-col schedule-full-desc">21:50</div>
+                                <div class="schedule-col schedule-full-title">Boarding End</div>
+                                <div class="schedule-col schedule-full-desc">22:20</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-short">
+                        <div class="schedule-col schedule-time">01:10</div>
+                        <div class="schedule-col schedule-plane-icon">
+                            <img src="img/arrival.svg" class="schedule-plane-img">
+                        </div>
+                        <div class="schedule-col schedule-number">NN 164</div>
+                        <div class="schedule-col schedule-company">
+                            VIM Airlines
+                        </div>
+                        <div class="schedule-col schedule-company-icon">
+                            <img src="img/aircompany/NN.svg" class="schedule-company-img">
+                        </div>
+                        <div class="schedule-col schedule-airport">Makhachkala<span class="schedule-airport-full"> (Makhachkala Airport)</span></div>
+                        <div class="schedule-col schedule-plane">
+                            <span class="schedule-plane-full">Boeing 757 Passenger</span>
+                            <span class="schedule-plane-short">B 757</span>
+                        </div>
+                        <div class="schedule-col schedule-status">
+                        <span class="schedule-status-flight">
+                            Landed at 01:10
+                            <span class="schedule-status-full">Landed at 01:10. Baggage delivery closed 05</span>
+                        </div>
+                    </div>
+                </arrivalrow>
+                
+                <arrivalrow class="schedule-row schedule-arrival">
+                    <div class="schedule-full">
+                        <div class="schedule-inner-wrap">
+                            <div class="schedule-full-header">
+                                <img src="img/aircompany/HY.svg" class="schedule-company-img">
+                                <span class="schedule-full-header-title">Scheduled flight info</span>
+                            </div>
+                            <div class="schedule-full-content">
+                                <div class="schedule-col schedule-full-title">Departure</div>
+                                <div class="schedule-col schedule-full-desc">Fergana (Fergana Airport)</div>
+                                <div class="schedule-col schedule-full-title">Destination</div>
+                                <div class="schedule-col schedule-full-desc">Moscow (Moscow Domodedovo Airport) ,  24.07 at 01:10</div>
+                                <div class="schedule-col schedule-full-title">Status</div>
+                                <div class="schedule-col schedule-full-desc">Landed at 01:10. Baggage delivery closed 05</div>
+                                <div class="schedule-col schedule-full-title">Time of arrival at destination</div>
+                                <div class="schedule-col schedule-full-desc">01:10</div>
+                                <div class="schedule-col schedule-full-title">Flight Number</div>
+                                <div class="schedule-col schedule-full-desc">HY 627</div>
+                                <div class="schedule-col schedule-full-title">Airline</div>
+                                <div class="schedule-col schedule-full-desc">Uzbekistan Airways</div>
+                                <div class="schedule-col schedule-full-title">Aircraft type</div>
+                                <div class="schedule-col schedule-full-desc">Airbus A318 / A319 / A320 / A321</div>
+                                <div class="schedule-col schedule-full-title">Check-in Start</div>
+                                <div class="schedule-col schedule-full-desc">23.07 10:30</div>
+                                <div class="schedule-col schedule-full-title">Check-in End</div>
+                                <div class="schedule-col schedule-full-desc">23.07 22:00</div>
+                                <div class="schedule-col schedule-full-title">Boarding Start</div>
+                                <div class="schedule-col schedule-full-desc">21:50</div>
+                                <div class="schedule-col schedule-full-title">Boarding End</div>
+                                <div class="schedule-col schedule-full-desc">22:20</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-short">
+                        <div class="schedule-col schedule-time">01:10</div>
+                        <div class="schedule-col schedule-plane-icon">
+                            <img src="img/arrival.svg" class="schedule-plane-img">
+                        </div>
+                        <div class="schedule-col schedule-number">HY 627</div>
+                        <div class="schedule-col schedule-company">
+                            Uzbekistan Airways
+                        </div>
+                        <div class="schedule-col schedule-company-icon">
+                            <img src="img/aircompany/HY.svg" class="schedule-company-img">
+                        </div>
+                        <div class="schedule-col schedule-airport">Fergana<span class="schedule-airport-full"> (Fergana Airport)</span></div>
+                        <div class="schedule-col schedule-plane">
+                            <span class="schedule-plane-full">Airbus A318 / A319 / A320 / A321</span>
+                            <span class="schedule-plane-short">A A318</span>
+                        </div>
+                        <div class="schedule-col schedule-status">
+                        <span class="schedule-status-flight">
+                            Landed at 01:10
+                            <span class="schedule-status-full">Landed at 01:10. Baggage delivery closed 05</span>
+                        </div>
+                    </div>
+                </arrivalrow>
+                
+                <departurerow class="schedule-row schedule-departure">
+                    <div class="schedule-full">
+                        <div class="schedule-inner-wrap">
+                            <div class="schedule-full-header">
+                                <img src="img/aircompany/YC.svg" class="schedule-company-img">
+                                <span class="schedule-full-header-title">Scheduled flight info</span>
+                            </div>
+                            <div class="schedule-full-content">
+                                <div class="schedule-col schedule-full-title">Departure</div>
+                                <div class="schedule-col schedule-full-desc">Moscow (Moscow Domodedovo Airport)</div>
+                                <div class="schedule-col schedule-full-title">Destination</div>
+                                <div class="schedule-col schedule-full-desc">Novyj Urengoj (Novy Urengoy Airport) ,  24.07 at 06:30</div>
+                                <div class="schedule-col schedule-full-title">Status</div>
+                                <div class="schedule-col schedule-full-desc">Departed 01:20</div>
+                                <div class="schedule-col schedule-full-title">Time of arrival at destination</div>
+                                <div class="schedule-col schedule-full-desc">06:30</div>
+                                <div class="schedule-col schedule-full-title">Flight Number</div>
+                                <div class="schedule-col schedule-full-desc">YC 90</div>
+                                <div class="schedule-col schedule-full-title">Airline</div>
+                                <div class="schedule-col schedule-full-desc">Yamal Airlines</div>
+                                <div class="schedule-col schedule-full-title">Aircraft type</div>
+                                <div class="schedule-col schedule-full-desc">Airbus A318 / A319 / A320 / A321</div>
+                                <div class="schedule-col schedule-full-title">Check-in Start</div>
+                                <div class="schedule-col schedule-full-desc">23.07 13:20</div>
+                                <div class="schedule-col schedule-full-title">Check-in End</div>
+                                <div class="schedule-col schedule-full-desc">24.07 00:50</div>
+                                <div class="schedule-col schedule-full-title">Boarding Start</div>
+                                <div class="schedule-col schedule-full-desc">00:40</div>
+                                <div class="schedule-col schedule-full-title">Boarding End</div>
+                                <div class="schedule-col schedule-full-desc">01:10</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-short">
+                        <div class="schedule-col schedule-time">01:20</div>
+                        <div class="schedule-col schedule-plane-icon">
+                            <img src="img/departure.svg" class="schedule-plane-img">
+                        </div>
+                        <div class="schedule-col schedule-number">YC 90</div>
+                        <div class="schedule-col schedule-company">
+                            Yamal Airlines
+                        </div>
+                        <div class="schedule-col schedule-company-icon">
+                            <img src="img/aircompany/YC.svg" class="schedule-company-img">
+                        </div>
+                        <div class="schedule-col schedule-airport">Novyj Urengoj<span class="schedule-airport-full"> (Novy Urengoy Airport)</span></div>
+                        <div class="schedule-col schedule-plane">
+                            <span class="schedule-plane-full">Airbus A318 / A319 / A320 / A321</span>
+                            <span class="schedule-plane-short">A A318</span>
+                        </div>
+                        <div class="schedule-col schedule-status">
+                        <span class="schedule-status-flight">
+                            Departed at 01:20
+                            <span class="schedule-status-full">Departed 01:20</span>
+                        </div>
+                    </div>
+                </departurerow>
+                
+                <arrivalrow class="schedule-row schedule-arrival">
+                    <div class="schedule-full">
+                        <div class="schedule-inner-wrap">
+                            <div class="schedule-full-header">
+                                <img src="img/aircompany/LX.svg" class="schedule-company-img">
+                                <span class="schedule-full-header-title">Scheduled flight info</span>
+                            </div>
+                            <div class="schedule-full-content">
+                                <div class="schedule-col schedule-full-title">Departure</div>
+                                <div class="schedule-col schedule-full-desc">Zurich (Zurich Airport)</div>
+                                <div class="schedule-col schedule-full-title">Destination</div>
+                                <div class="schedule-col schedule-full-desc">Moscow (Moscow Domodedovo Airport) ,  24.07 at 01:25</div>
+                                <div class="schedule-col schedule-full-title">Status</div>
+                                <div class="schedule-col schedule-full-desc">Landed at 01:25. Baggage delivery closed 05</div>
+                                <div class="schedule-col schedule-full-title">Time of arrival at destination</div>
+                                <div class="schedule-col schedule-full-desc">01:25</div>
+                                <div class="schedule-col schedule-full-title">Flight Number</div>
+                                <div class="schedule-col schedule-full-desc">LX 1324</div>
+                                <div class="schedule-col schedule-full-title">Airline</div>
+                                <div class="schedule-col schedule-full-desc">SWISS</div>
+                                <div class="schedule-col schedule-full-title">Aircraft type</div>
+                                <div class="schedule-col schedule-full-desc">Airbus A318 / A319 / A320 / A321</div>
+                                <div class="schedule-col schedule-full-title">Check-in Start</div>
+                                <div class="schedule-col schedule-full-desc">23.07 09:00</div>
+                                <div class="schedule-col schedule-full-title">Check-in End</div>
+                                <div class="schedule-col schedule-full-desc">23.07 20:30</div>
+                                <div class="schedule-col schedule-full-title">Boarding Start</div>
+                                <div class="schedule-col schedule-full-desc">20:20</div>
+                                <div class="schedule-col schedule-full-title">Boarding End</div>
+                                <div class="schedule-col schedule-full-desc">20:50</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-short">
+                        <div class="schedule-col schedule-time">01:25</div>
+                        <div class="schedule-col schedule-plane-icon">
+                            <img src="img/arrival.svg" class="schedule-plane-img">
+                        </div>
+                        <div class="schedule-col schedule-number">LX 1324</div>
+                        <div class="schedule-col schedule-company">
+                            SWISS
+                        </div>
+                        <div class="schedule-col schedule-company-icon">
+                            <img src="img/aircompany/LX.svg" class="schedule-company-img">
+                        </div>
+                        <div class="schedule-col schedule-airport">Zurich<span class="schedule-airport-full"> (Zurich Airport)</span></div>
+                        <div class="schedule-col schedule-plane">
+                            <span class="schedule-plane-full">Airbus A318 / A319 / A320 / A321</span>
+                            <span class="schedule-plane-short">A A318</span>
+                        </div>
+                        <div class="schedule-col schedule-status">
+                        <span class="schedule-status-flight">
+                            Landed at 01:25
+                            <span class="schedule-status-full">Landed at 01:25. Baggage delivery closed 05</span>
+                        </div>
+                    </div>
+                </arrivalrow>
+                
+                <arrivalrow class="schedule-row schedule-arrival">
+                    <div class="schedule-full">
+                        <div class="schedule-inner-wrap">
+                            <div class="schedule-full-header">
+                                <img src="img/aircompany/AB.svg" class="schedule-company-img">
+                                <span class="schedule-full-header-title">Scheduled flight info</span>
+                            </div>
+                            <div class="schedule-full-content">
+                                <div class="schedule-col schedule-full-title">Departure</div>
+                                <div class="schedule-col schedule-full-desc">Dusseldorf (Dusseldorf International Airport)</div>
+                                <div class="schedule-col schedule-full-title">Destination</div>
+                                <div class="schedule-col schedule-full-desc">Moscow (Moscow Domodedovo Airport) ,  24.07 at 01:30</div>
+                                <div class="schedule-col schedule-full-title">Status</div>
+                                <div class="schedule-col schedule-full-desc">Landed at 01:30. Baggage delivery closed 05</div>
+                                <div class="schedule-col schedule-full-title">Time of arrival at destination</div>
+                                <div class="schedule-col schedule-full-desc">01:30</div>
+                                <div class="schedule-col schedule-full-title">Flight Number</div>
+                                <div class="schedule-col schedule-full-desc">AB 8110</div>
+                                <div class="schedule-col schedule-full-title">Airline</div>
+                                <div class="schedule-col schedule-full-desc">Air Berlin</div>
+                                <div class="schedule-col schedule-full-title">Aircraft type</div>
+                                <div class="schedule-col schedule-full-desc">Airbus A318 / A319 / A320 / A321</div>
+                                <div class="schedule-col schedule-full-title">Check-in Start</div>
+                                <div class="schedule-col schedule-full-desc">23.07 09:15</div>
+                                <div class="schedule-col schedule-full-title">Check-in End</div>
+                                <div class="schedule-col schedule-full-desc">23.07 20:45</div>
+                                <div class="schedule-col schedule-full-title">Boarding Start</div>
+                                <div class="schedule-col schedule-full-desc">20:35</div>
+                                <div class="schedule-col schedule-full-title">Boarding End</div>
+                                <div class="schedule-col schedule-full-desc">21:05</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-short">
+                        <div class="schedule-col schedule-time">01:30</div>
+                        <div class="schedule-col schedule-plane-icon">
+                            <img src="img/arrival.svg" class="schedule-plane-img">
+                        </div>
+                        <div class="schedule-col schedule-number">AB 8110</div>
+                        <div class="schedule-col schedule-company">
+                            Air Berlin
+                        </div>
+                        <div class="schedule-col schedule-company-icon">
+                            <img src="img/aircompany/AB.svg" class="schedule-company-img">
+                        </div>
+                        <div class="schedule-col schedule-airport">Dusseldorf<span class="schedule-airport-full"> (Dusseldorf International Airport)</span></div>
+                        <div class="schedule-col schedule-plane">
+                            <span class="schedule-plane-full">Airbus A318 / A319 / A320 / A321</span>
+                            <span class="schedule-plane-short">A A318</span>
+                        </div>
+                        <div class="schedule-col schedule-status">
+                        <span class="schedule-status-flight">
+                            Landed at 01:30
+                            <span class="schedule-status-full">Landed at 01:30. Baggage delivery closed 05</span>
+                        </div>
+                    </div>
+                </arrivalrow>
+                
+                <arrivalrow class="schedule-row schedule-arrival">
+                    <div class="schedule-full">
+                        <div class="schedule-inner-wrap">
+                            <div class="schedule-full-header">
+                                <img src="img/aircompany/S7.svg" class="schedule-company-img">
+                                <span class="schedule-full-header-title">Scheduled flight info</span>
+                            </div>
+                            <div class="schedule-full-content">
+                                <div class="schedule-col schedule-full-title">Departure</div>
+                                <div class="schedule-col schedule-full-desc">Dusseldorf (Dusseldorf International Airport)</div>
+                                <div class="schedule-col schedule-full-title">Destination</div>
+                                <div class="schedule-col schedule-full-desc">Moscow (Moscow Domodedovo Airport) ,  24.07 at 01:30</div>
+                                <div class="schedule-col schedule-full-title">Status</div>
+                                <div class="schedule-col schedule-full-desc">Landed at 01:30. Baggage delivery closed 05</div>
+                                <div class="schedule-col schedule-full-title">Time of arrival at destination</div>
+                                <div class="schedule-col schedule-full-desc">01:30</div>
+                                <div class="schedule-col schedule-full-title">Flight Number</div>
+                                <div class="schedule-col schedule-full-desc">S7 4022</div>
+                                <div class="schedule-col schedule-full-title">Airline</div>
+                                <div class="schedule-col schedule-full-desc">S7 Airlines</div>
+                                <div class="schedule-col schedule-full-title">Aircraft type</div>
+                                <div class="schedule-col schedule-full-desc">Airbus A318 / A319 / A320 / A321</div>
+                                <div class="schedule-col schedule-full-title">Check-in Start</div>
+                                <div class="schedule-col schedule-full-desc">23.07 09:15</div>
+                                <div class="schedule-col schedule-full-title">Check-in End</div>
+                                <div class="schedule-col schedule-full-desc">23.07 20:45</div>
+                                <div class="schedule-col schedule-full-title">Boarding Start</div>
+                                <div class="schedule-col schedule-full-desc">20:35</div>
+                                <div class="schedule-col schedule-full-title">Boarding End</div>
+                                <div class="schedule-col schedule-full-desc">21:05</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-short">
+                        <div class="schedule-col schedule-time">01:30</div>
+                        <div class="schedule-col schedule-plane-icon">
+                            <img src="img/arrival.svg" class="schedule-plane-img">
+                        </div>
+                        <div class="schedule-col schedule-number">S7 4022</div>
+                        <div class="schedule-col schedule-company">
+                            S7 Airlines
+                        </div>
+                        <div class="schedule-col schedule-company-icon">
+                            <img src="img/aircompany/S7.svg" class="schedule-company-img">
+                        </div>
+                        <div class="schedule-col schedule-airport">Dusseldorf<span class="schedule-airport-full"> (Dusseldorf International Airport)</span></div>
+                        <div class="schedule-col schedule-plane">
+                            <span class="schedule-plane-full">Airbus A318 / A319 / A320 / A321</span>
+                            <span class="schedule-plane-short">A A318</span>
+                        </div>
+                        <div class="schedule-col schedule-status">
+                        <span class="schedule-status-flight">
+                            Landed at 01:30
+                            <span class="schedule-status-full">Landed at 01:30. Baggage delivery closed 05</span>
+                        </div>
+                    </div>
+                </arrivalrow>
+                
+                <departurerow class="schedule-row schedule-departure">
+                    <div class="schedule-full">
+                        <div class="schedule-inner-wrap">
+                            <div class="schedule-full-header">
+                                <img src="img/aircompany/7J.svg" class="schedule-company-img">
+                                <span class="schedule-full-header-title">Scheduled flight info</span>
+                            </div>
+                            <div class="schedule-full-content">
+                                <div class="schedule-col schedule-full-title">Departure</div>
+                                <div class="schedule-col schedule-full-desc">Moscow (Moscow Domodedovo Airport)</div>
+                                <div class="schedule-col schedule-full-title">Destination</div>
+                                <div class="schedule-col schedule-full-desc">Dushanbe (Dushanbe Airport) ,  24.07 at 07:30</div>
+                                <div class="schedule-col schedule-full-title">Status</div>
+                                <div class="schedule-col schedule-full-desc">Departed 01:30</div>
+                                <div class="schedule-col schedule-full-title">Time of arrival at destination</div>
+                                <div class="schedule-col schedule-full-desc">07:30</div>
+                                <div class="schedule-col schedule-full-title">Flight Number</div>
+                                <div class="schedule-col schedule-full-desc">7J 630</div>
+                                <div class="schedule-col schedule-full-title">Airline</div>
+                                <div class="schedule-col schedule-full-desc">Tajik Air</div>
+                                <div class="schedule-col schedule-full-title">Aircraft type</div>
+                                <div class="schedule-col schedule-full-desc">Boeing 757 Passenger</div>
+                                <div class="schedule-col schedule-full-title">Check-in Start</div>
+                                <div class="schedule-col schedule-full-desc">23.07 13:30</div>
+                                <div class="schedule-col schedule-full-title">Check-in End</div>
+                                <div class="schedule-col schedule-full-desc">24.07 01:00</div>
+                                <div class="schedule-col schedule-full-title">Boarding Start</div>
+                                <div class="schedule-col schedule-full-desc">00:50</div>
+                                <div class="schedule-col schedule-full-title">Boarding End</div>
+                                <div class="schedule-col schedule-full-desc">01:20</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-short">
+                        <div class="schedule-col schedule-time">01:30</div>
+                        <div class="schedule-col schedule-plane-icon">
+                            <img src="img/departure.svg" class="schedule-plane-img">
+                        </div>
+                        <div class="schedule-col schedule-number">7J 630</div>
+                        <div class="schedule-col schedule-company">
+                            Tajik Air
+                        </div>
+                        <div class="schedule-col schedule-company-icon">
+                            <img src="img/aircompany/7J.svg" class="schedule-company-img">
+                        </div>
+                        <div class="schedule-col schedule-airport">Dushanbe<span class="schedule-airport-full"> (Dushanbe Airport)</span></div>
+                        <div class="schedule-col schedule-plane">
+                            <span class="schedule-plane-full">Boeing 757 Passenger</span>
+                            <span class="schedule-plane-short">B 757</span>
+                        </div>
+                        <div class="schedule-col schedule-status">
+                        <span class="schedule-status-flight">
+                            Departed at 01:30
+                            <span class="schedule-status-full">Departed 01:30</span>
+                        </div>
+                    </div>
+                </departurerow>
+                
+                <departurerow class="schedule-row schedule-departure">
+                    <div class="schedule-full">
+                        <div class="schedule-inner-wrap">
+                            <div class="schedule-full-header">
+                                <img src="img/aircompany/BJ.svg" class="schedule-company-img">
+                                <span class="schedule-full-header-title">Scheduled flight info</span>
+                            </div>
+                            <div class="schedule-full-content">
+                                <div class="schedule-col schedule-full-title">Departure</div>
+                                <div class="schedule-col schedule-full-desc">Moscow (Moscow Domodedovo Airport)</div>
+                                <div class="schedule-col schedule-full-title">Destination</div>
+                                <div class="schedule-col schedule-full-desc">Enfidha (Enfidha - Hammamet International Airport ) ,  24.07 at 03:00</div>
+                                <div class="schedule-col schedule-full-title">Status</div>
+                                <div class="schedule-col schedule-full-desc">Departed 01:30</div>
+                                <div class="schedule-col schedule-full-title">Time of arrival at destination</div>
+                                <div class="schedule-col schedule-full-desc">03:00</div>
+                                <div class="schedule-col schedule-full-title">Flight Number</div>
+                                <div class="schedule-col schedule-full-desc">BJ 855</div>
+                                <div class="schedule-col schedule-full-title">Airline</div>
+                                <div class="schedule-col schedule-full-desc">Nouvelair Tunisie</div>
+                                <div class="schedule-col schedule-full-title">Aircraft type</div>
+                                <div class="schedule-col schedule-full-desc">Airbus A318 / A319 / A320 / A321</div>
+                                <div class="schedule-col schedule-full-title">Check-in Start</div>
+                                <div class="schedule-col schedule-full-desc">23.07 13:30</div>
+                                <div class="schedule-col schedule-full-title">Check-in End</div>
+                                <div class="schedule-col schedule-full-desc">24.07 01:00</div>
+                                <div class="schedule-col schedule-full-title">Boarding Start</div>
+                                <div class="schedule-col schedule-full-desc">00:50</div>
+                                <div class="schedule-col schedule-full-title">Boarding End</div>
+                                <div class="schedule-col schedule-full-desc">01:20</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-short">
+                        <div class="schedule-col schedule-time">01:30</div>
+                        <div class="schedule-col schedule-plane-icon">
+                            <img src="img/departure.svg" class="schedule-plane-img">
+                        </div>
+                        <div class="schedule-col schedule-number">BJ 855</div>
+                        <div class="schedule-col schedule-company">
+                            Nouvelair Tunisie
+                        </div>
+                        <div class="schedule-col schedule-company-icon">
+                            <img src="img/aircompany/BJ.svg" class="schedule-company-img">
+                        </div>
+                        <div class="schedule-col schedule-airport">Enfidha<span class="schedule-airport-full"> (Enfidha - Hammamet International Airport )</span></div>
+                        <div class="schedule-col schedule-plane">
+                            <span class="schedule-plane-full">Airbus A318 / A319 / A320 / A321</span>
+                            <span class="schedule-plane-short">A A318</span>
+                        </div>
+                        <div class="schedule-col schedule-status">
+                        <span class="schedule-status-flight">
+                            Departed at 01:30
+                            <span class="schedule-status-full">Departed 01:30</span>
+                        </div>
+                    </div>
+                </departurerow>
+                
+                <arrivalrow class="schedule-row schedule-arrival">
+                    <div class="schedule-full">
+                        <div class="schedule-inner-wrap">
+                            <div class="schedule-full-header">
+                                <img src="img/aircompany/UN.svg" class="schedule-company-img">
+                                <span class="schedule-full-header-title">Scheduled flight info</span>
+                            </div>
+                            <div class="schedule-full-content">
+                                <div class="schedule-col schedule-full-title">Departure</div>
+                                <div class="schedule-col schedule-full-desc">Larnaca (Larnaca International Airport)</div>
+                                <div class="schedule-col schedule-full-title">Destination</div>
+                                <div class="schedule-col schedule-full-desc">Moscow (Moscow Domodedovo Airport) ,  24.07 at 01:35</div>
+                                <div class="schedule-col schedule-full-title">Status</div>
+                                <div class="schedule-col schedule-full-desc">Landed at 01:35. Baggage delivery closed 05</div>
+                                <div class="schedule-col schedule-full-title">Time of arrival at destination</div>
+                                <div class="schedule-col schedule-full-desc">01:35</div>
+                                <div class="schedule-col schedule-full-title">Flight Number</div>
+                                <div class="schedule-col schedule-full-desc">UN 3166</div>
+                                <div class="schedule-col schedule-full-title">Airline</div>
+                                <div class="schedule-col schedule-full-desc">Transaero Airlines</div>
+                                <div class="schedule-col schedule-full-title">Aircraft type</div>
+                                <div class="schedule-col schedule-full-desc">Boeing 747 Passenger</div>
+                                <div class="schedule-col schedule-full-title">Check-in Start</div>
+                                <div class="schedule-col schedule-full-desc">23.07 10:00</div>
+                                <div class="schedule-col schedule-full-title">Check-in End</div>
+                                <div class="schedule-col schedule-full-desc">23.07 21:30</div>
+                                <div class="schedule-col schedule-full-title">Boarding Start</div>
+                                <div class="schedule-col schedule-full-desc">21:20</div>
+                                <div class="schedule-col schedule-full-title">Boarding End</div>
+                                <div class="schedule-col schedule-full-desc">21:50</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-short">
+                        <div class="schedule-col schedule-time">01:35</div>
+                        <div class="schedule-col schedule-plane-icon">
+                            <img src="img/arrival.svg" class="schedule-plane-img">
+                        </div>
+                        <div class="schedule-col schedule-number">UN 3166</div>
+                        <div class="schedule-col schedule-company">
+                            Transaero Airlines
+                        </div>
+                        <div class="schedule-col schedule-company-icon">
+                            <img src="img/aircompany/UN.svg" class="schedule-company-img">
+                        </div>
+                        <div class="schedule-col schedule-airport">Larnaca<span class="schedule-airport-full"> (Larnaca International Airport)</span></div>
+                        <div class="schedule-col schedule-plane">
+                            <span class="schedule-plane-full">Boeing 747 Passenger</span>
+                            <span class="schedule-plane-short">B 747</span>
+                        </div>
+                        <div class="schedule-col schedule-status">
+                        <span class="schedule-status-flight">
+                            Landed at 01:35
+                            <span class="schedule-status-full">Landed at 01:35. Baggage delivery closed 05</span>
+                        </div>
+                    </div>
+                </arrivalrow>
+                
+                <arrivalrow class="schedule-row schedule-arrival">
+                    <div class="schedule-full">
+                        <div class="schedule-inner-wrap">
+                            <div class="schedule-full-header">
+                                <img src="img/aircompany/VY.svg" class="schedule-company-img">
+                                <span class="schedule-full-header-title">Scheduled flight info</span>
+                            </div>
+                            <div class="schedule-full-content">
+                                <div class="schedule-col schedule-full-title">Departure</div>
+                                <div class="schedule-col schedule-full-desc">Alicante (Alicante-Elche Airport)</div>
+                                <div class="schedule-col schedule-full-title">Destination</div>
+                                <div class="schedule-col schedule-full-desc">Moscow (Moscow Domodedovo Airport) ,  24.07 at 01:40</div>
+                                <div class="schedule-col schedule-full-title">Status</div>
+                                <div class="schedule-col schedule-full-desc">Departed at 19:55. Expected at 01:40</div>
+                                <div class="schedule-col schedule-full-title">Time of arrival at destination</div>
+                                <div class="schedule-col schedule-full-desc">01:40</div>
+                                <div class="schedule-col schedule-full-title">Flight Number</div>
+                                <div class="schedule-col schedule-full-desc">VY 7745</div>
+                                <div class="schedule-col schedule-full-title">Airline</div>
+                                <div class="schedule-col schedule-full-desc">Vueling</div>
+                                <div class="schedule-col schedule-full-title">Aircraft type</div>
+                                <div class="schedule-col schedule-full-desc">Airbus A318 / A319 / A320 / A321</div>
+                                <div class="schedule-col schedule-full-title">Check-in Start</div>
+                                <div class="schedule-col schedule-full-desc">23.07 07:55</div>
+                                <div class="schedule-col schedule-full-title">Check-in End</div>
+                                <div class="schedule-col schedule-full-desc">23.07 19:25</div>
+                                <div class="schedule-col schedule-full-title">Boarding Start</div>
+                                <div class="schedule-col schedule-full-desc">19:15</div>
+                                <div class="schedule-col schedule-full-title">Boarding End</div>
+                                <div class="schedule-col schedule-full-desc">19:45</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-short">
+                        <div class="schedule-col schedule-time">01:40</div>
+                        <div class="schedule-col schedule-plane-icon">
+                            <img src="img/arrival.svg" class="schedule-plane-img">
+                        </div>
+                        <div class="schedule-col schedule-number">VY 7745</div>
+                        <div class="schedule-col schedule-company">
+                            Vueling
+                        </div>
+                        <div class="schedule-col schedule-company-icon">
+                            <img src="img/aircompany/VY.svg" class="schedule-company-img">
+                        </div>
+                        <div class="schedule-col schedule-airport">Alicante<span class="schedule-airport-full"> (Alicante-Elche Airport)</span></div>
+                        <div class="schedule-col schedule-plane">
+                            <span class="schedule-plane-full">Airbus A318 / A319 / A320 / A321</span>
+                            <span class="schedule-plane-short">A A318</span>
+                        </div>
+                        <div class="schedule-col schedule-status">
+                        <span class="schedule-status-flight">
+                            Departed at 19:55
+                            <span class="schedule-status-full">Departed at 19:55. Expected at 01:40</span>
+                        </div>
+                    </div>
+                </arrivalrow>
+                
+                <arrivalrow class="schedule-row schedule-arrival">
+                    <div class="schedule-full">
+                        <div class="schedule-inner-wrap">
+                            <div class="schedule-full-header">
+                                <img src="img/aircompany/IB.svg" class="schedule-company-img">
+                                <span class="schedule-full-header-title">Scheduled flight info</span>
+                            </div>
+                            <div class="schedule-full-content">
+                                <div class="schedule-col schedule-full-title">Departure</div>
+                                <div class="schedule-col schedule-full-desc">Alicante (Alicante-Elche Airport)</div>
+                                <div class="schedule-col schedule-full-title">Destination</div>
+                                <div class="schedule-col schedule-full-desc">Moscow (Moscow Domodedovo Airport) ,  24.07 at 01:40</div>
+                                <div class="schedule-col schedule-full-title">Status</div>
+                                <div class="schedule-col schedule-full-desc">Departed at 19:55. Expected at 01:40</div>
+                                <div class="schedule-col schedule-full-title">Time of arrival at destination</div>
+                                <div class="schedule-col schedule-full-desc">01:40</div>
+                                <div class="schedule-col schedule-full-title">Flight Number</div>
+                                <div class="schedule-col schedule-full-desc">IB 5074</div>
+                                <div class="schedule-col schedule-full-title">Airline</div>
+                                <div class="schedule-col schedule-full-desc">Iberia</div>
+                                <div class="schedule-col schedule-full-title">Aircraft type</div>
+                                <div class="schedule-col schedule-full-desc">Airbus A318 / A319 / A320 / A321</div>
+                                <div class="schedule-col schedule-full-title">Check-in Start</div>
+                                <div class="schedule-col schedule-full-desc">23.07 07:55</div>
+                                <div class="schedule-col schedule-full-title">Check-in End</div>
+                                <div class="schedule-col schedule-full-desc">23.07 19:25</div>
+                                <div class="schedule-col schedule-full-title">Boarding Start</div>
+                                <div class="schedule-col schedule-full-desc">19:15</div>
+                                <div class="schedule-col schedule-full-title">Boarding End</div>
+                                <div class="schedule-col schedule-full-desc">19:45</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-short">
+                        <div class="schedule-col schedule-time">01:40</div>
+                        <div class="schedule-col schedule-plane-icon">
+                            <img src="img/arrival.svg" class="schedule-plane-img">
+                        </div>
+                        <div class="schedule-col schedule-number">IB 5074</div>
+                        <div class="schedule-col schedule-company">
+                            Iberia
+                        </div>
+                        <div class="schedule-col schedule-company-icon">
+                            <img src="img/aircompany/IB.svg" class="schedule-company-img">
+                        </div>
+                        <div class="schedule-col schedule-airport">Alicante<span class="schedule-airport-full"> (Alicante-Elche Airport)</span></div>
+                        <div class="schedule-col schedule-plane">
+                            <span class="schedule-plane-full">Airbus A318 / A319 / A320 / A321</span>
+                            <span class="schedule-plane-short">A A318</span>
+                        </div>
+                        <div class="schedule-col schedule-status">
+                        <span class="schedule-status-flight">
+                            Departed at 19:55
+                            <span class="schedule-status-full">Departed at 19:55. Expected at 01:40</span>
+                        </div>
+                    </div>
+                </arrivalrow>
+                
+                <departurerow class="schedule-row schedule-departure">
+                    <div class="schedule-full">
+                        <div class="schedule-inner-wrap">
+                            <div class="schedule-full-header">
+                                <img src="img/aircompany/S7.svg" class="schedule-company-img">
+                                <span class="schedule-full-header-title">Scheduled flight info</span>
+                            </div>
+                            <div class="schedule-full-content">
+                                <div class="schedule-col schedule-full-title">Departure</div>
+                                <div class="schedule-col schedule-full-desc">Moscow (Moscow Domodedovo Airport)</div>
+                                <div class="schedule-col schedule-full-title">Destination</div>
+                                <div class="schedule-col schedule-full-desc">Yerevan (Zvartnots International Airport) ,  24.07 at 05:35</div>
+                                <div class="schedule-col schedule-full-title">Status</div>
+                                <div class="schedule-col schedule-full-desc">Boarding finished</div>
+                                <div class="schedule-col schedule-full-title">Time of arrival at destination</div>
+                                <div class="schedule-col schedule-full-desc">05:35</div>
+                                <div class="schedule-col schedule-full-title">Flight Number</div>
+                                <div class="schedule-col schedule-full-desc">S7 907</div>
+                                <div class="schedule-col schedule-full-title">Airline</div>
+                                <div class="schedule-col schedule-full-desc">S7 Airlines</div>
+                                <div class="schedule-col schedule-full-title">Aircraft type</div>
+                                <div class="schedule-col schedule-full-desc">Airbus A318 / A319 / A320 / A321</div>
+                                <div class="schedule-col schedule-full-title">Check-in Start</div>
+                                <div class="schedule-col schedule-full-desc">23.07 13:40</div>
+                                <div class="schedule-col schedule-full-title">Check-in End</div>
+                                <div class="schedule-col schedule-full-desc">24.07 01:10</div>
+                                <div class="schedule-col schedule-full-title">Boarding Start</div>
+                                <div class="schedule-col schedule-full-desc">01:00</div>
+                                <div class="schedule-col schedule-full-title">Boarding End</div>
+                                <div class="schedule-col schedule-full-desc">01:30</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-short">
+                        <div class="schedule-col schedule-time">01:40</div>
+                        <div class="schedule-col schedule-plane-icon">
+                            <img src="img/departure.svg" class="schedule-plane-img">
+                        </div>
+                        <div class="schedule-col schedule-number">S7 907</div>
+                        <div class="schedule-col schedule-company">
+                            S7 Airlines
+                        </div>
+                        <div class="schedule-col schedule-company-icon">
+                            <img src="img/aircompany/S7.svg" class="schedule-company-img">
+                        </div>
+                        <div class="schedule-col schedule-airport">Yerevan<span class="schedule-airport-full"> (Zvartnots International Airport)</span></div>
+                        <div class="schedule-col schedule-plane">
+                            <span class="schedule-plane-full">Airbus A318 / A319 / A320 / A321</span>
+                            <span class="schedule-plane-short">A A318</span>
+                        </div>
+                        <div class="schedule-col schedule-status">
+                        <span class="schedule-status-flight">
+                            Not departed
+                            <span class="schedule-status-full">Boarding finished</span>
+                        </div>
+                    </div>
+                </departurerow>
+                
+                <departurerow class="schedule-row schedule-departure">
+                    <div class="schedule-full">
+                        <div class="schedule-inner-wrap">
+                            <div class="schedule-full-header">
+                                <img src="img/aircompany/NN.svg" class="schedule-company-img">
+                                <span class="schedule-full-header-title">Scheduled flight info</span>
+                            </div>
+                            <div class="schedule-full-content">
+                                <div class="schedule-col schedule-full-title">Departure</div>
+                                <div class="schedule-col schedule-full-desc">Moscow (Moscow Domodedovo Airport)</div>
+                                <div class="schedule-col schedule-full-title">Destination</div>
+                                <div class="schedule-col schedule-full-desc">Simferopol (Simferopol International Airport) ,  24.07 at 04:05</div>
+                                <div class="schedule-col schedule-full-title">Status</div>
+                                <div class="schedule-col schedule-full-desc">Boarding finished</div>
+                                <div class="schedule-col schedule-full-title">Time of arrival at destination</div>
+                                <div class="schedule-col schedule-full-desc">04:05</div>
+                                <div class="schedule-col schedule-full-title">Flight Number</div>
+                                <div class="schedule-col schedule-full-desc">NN 323</div>
+                                <div class="schedule-col schedule-full-title">Airline</div>
+                                <div class="schedule-col schedule-full-desc">VIM Airlines</div>
+                                <div class="schedule-col schedule-full-title">Aircraft type</div>
+                                <div class="schedule-col schedule-full-desc">Boeing 757 Passenger</div>
+                                <div class="schedule-col schedule-full-title">Check-in Start</div>
+                                <div class="schedule-col schedule-full-desc">23.07 13:40</div>
+                                <div class="schedule-col schedule-full-title">Check-in End</div>
+                                <div class="schedule-col schedule-full-desc">24.07 01:10</div>
+                                <div class="schedule-col schedule-full-title">Boarding Start</div>
+                                <div class="schedule-col schedule-full-desc">01:00</div>
+                                <div class="schedule-col schedule-full-title">Boarding End</div>
+                                <div class="schedule-col schedule-full-desc">01:30</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-short">
+                        <div class="schedule-col schedule-time">01:40</div>
+                        <div class="schedule-col schedule-plane-icon">
+                            <img src="img/departure.svg" class="schedule-plane-img">
+                        </div>
+                        <div class="schedule-col schedule-number">NN 323</div>
+                        <div class="schedule-col schedule-company">
+                            VIM Airlines
+                        </div>
+                        <div class="schedule-col schedule-company-icon">
+                            <img src="img/aircompany/NN.svg" class="schedule-company-img">
+                        </div>
+                        <div class="schedule-col schedule-airport">Simferopol<span class="schedule-airport-full"> (Simferopol International Airport)</span></div>
+                        <div class="schedule-col schedule-plane">
+                            <span class="schedule-plane-full">Boeing 757 Passenger</span>
+                            <span class="schedule-plane-short">B 757</span>
+                        </div>
+                        <div class="schedule-col schedule-status">
+                        <span class="schedule-status-flight">
+                            Not departed
+                            <span class="schedule-status-full">Boarding finished</span>
+                        </div>
+                    </div>
+                </departurerow>
+                
+            </div>
+        </div>
+    </body>
+</html>
