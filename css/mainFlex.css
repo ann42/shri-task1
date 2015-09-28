@@ -414,7 +414,7 @@ body {
     }
 }
 .schedule-company {
-    width: 17%;
+    width: 10%;
 }
 @media only screen and (max-width: 1354px) {
     .schedule-short .schedule-company,
@@ -427,7 +427,7 @@ body {
     font-weight: 500;
 }
 .schedule-company-icon {
-    width: 6.5%;
+    width: 7%;
 }
 @media only screen and (max-width: 600px) {
     .schedule-short .schedule-company-icon,
